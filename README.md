@@ -159,7 +159,7 @@ This will generate out a changest, about the state of our infrastrucuture and wh
 
 We can out this chagneset ie. "plan" to be passed to an apply, but often you can just ignore outputting.
 
-#### Terraform Aplly
+#### Terraform Apply
 
 `terraform apply`
 
@@ -167,13 +167,17 @@ This will run a plan and pass the chagneset to be excuete by terraform. Apply sh
 
 If we want to automatically approve an apply we can provide the auto approve flag eg. `terraform apply --auto-approve`
 
-### Terraform Lock Files
+#### Terraform Destroy
+
+`terraform destroy` will destroy resource.
+
+#### Terraform Lock Files
 
 `.terraform.lock.hcl` contains the locked versioning for the providers or modulues that should be used with this project.
 
 The Terrafrom Lock File **should be committed** to your Version Control System (VSC) eg. GitHub
 
-### Terrafrom State Files
+#### Terrafrom State Files
 
 `.terraform.tfstate` contain information about the current state of your infrastructure.
 
@@ -185,6 +189,6 @@ If you lose this file, you lose knowning the state of your infrastructure.
 
 `.terraform.tfstate.backup` is the previous state file state.
 
-### Terraform Directory
+#### Terraform Directory
 
 `.terraform` directory contains binaries of terraform providers.
