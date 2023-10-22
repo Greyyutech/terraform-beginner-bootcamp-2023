@@ -26,9 +26,8 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
+  region     = "ap-east-1"
 }
-
 
 provider "random" {
   # Configuration options
