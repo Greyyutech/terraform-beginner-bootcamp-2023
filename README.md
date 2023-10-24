@@ -4,6 +4,7 @@
 
 ## Weekly Journal
 - [Week 0 Journal](/Journal/week0.md)
+- [Week 0 Journal](/Journal/week1.md)
 
 ##  Extras
 
